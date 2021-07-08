@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.0.0",
+    "bcrypt": "^5.0.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-jwt": "^4.0.1",
+    "koa-logger": "^3.2.1"
+  },
+  "scripts": {
+    "run": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
